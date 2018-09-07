@@ -7,7 +7,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
 }
 
 #top-half {
@@ -64,6 +63,7 @@ li {
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -73,16 +73,19 @@ li {
 }
 
 #blog-header {
-  display: flex;
-  justify-content: flex-end;
-  justify-content: space-between;
   margin-left: 10%;
-  margin-right: 10%;
+}
+#blog-header a {
+  font-size: 16pt;
+  text-decoration: none;
+  color: #009200;
+  font-family: "Poppins", sans-serif;
 }
 #blog-header #blog-text {
-  display: flex;
-  align-items: center;
+  font-size: 24pt;
+  font-family: "Poppins", sans-serif;
 }
+
 #blog {
   display: flex;
   justify-content: center;
