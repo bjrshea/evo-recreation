@@ -8,18 +8,30 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-#top-half {
+#nav-bar #top-half {
   display: flex;
   flex-direction: row;
 }
-#top-half .nav-buttons {
-  margin-top: 30px;
-  width: 100%;
-  height: 40px;
+#nav-bar #top-half input {
+  display: block;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 18pt;
+  width: 800px;
 }
-#top-half #sign-in {
+#nav-bar #top-half .nav-buttons {
+  margin-top: 40px;
+  width: 10%;
+  height: 40px;
+  font-size: 14pt;
+  background-color: #fcfcfc;
+}
+#nav-bar #top-half #sign-in {
   margin-left: 680px;
+}
+#nav-bar #top-half #cart {
+  margin-right: 40px;
+  color: #009200;
 }
 
 #bottom-half {

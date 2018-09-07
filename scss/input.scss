@@ -10,19 +10,32 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  }
   #top-half {
     display: flex;
     flex-direction: row;
+    input {
+      display: block;
+      margin-top: 50px;
+      margin-left: 50px;
+      font-size: 18pt;
+      width: 800px;
+    }
     .nav-buttons {
-      margin-top: 30px;
-      width: 100%;
+      margin-top: 40px;
+      width: 10%;
       height: 40px;
+      font-size: 14pt;
+      background-color: #fcfcfc;
     }
     #sign-in {
       margin-left: 680px;
     }
+    #cart {
+      margin-right: 40px;
+      color: #009200;
+    }
   }
+}
   #bottom-half {
      display: flex;
      flex-direction: row;
