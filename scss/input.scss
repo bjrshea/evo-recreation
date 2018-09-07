@@ -1,6 +1,40 @@
+$button-color: #2e2e2e;
+
 body {
   font-family: 'Heebo', sans-serif;
+  margin: 0;
 }
+
+#header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  ul {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+    li {
+      display: inline;
+      margin-left: 20px;
+    }
+  button {
+    color: $button-color;
+    border-color: $button-color;
+    background-color: white;
+    height: 40px;
+    margin-top: 2%;
+  }
+  #sign-in {
+    border-right: none;
+  }
+  #cart {
+    margin-right: 1%;
+  }
+}
+
 #jumbo {
   display: flex;
   flex-direction: column;
@@ -17,7 +51,7 @@ body {
     font-size: 14pt;
     color: white;
     padding: 5px;
-    border-color: #2e2e2e;
-    background-color: #2e2e2e;
+    border-color: $button-color;
+    background-color: $button-color;
   }
 }
