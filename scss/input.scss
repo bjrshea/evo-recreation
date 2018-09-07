@@ -5,36 +5,54 @@ body {
   margin: 0;
 }
 
-#header {
+#nav-bar {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
-  ul {
+  }
+  #top-half {
     display: flex;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    flex-direction: row;
+    .nav-buttons {
+      margin-top: 30px;
+      width: 100%;
+      height: 40px;
     }
-    li {
-      display: inline;
-      margin-left: 20px;
+    #sign-in {
+      margin-left: 680px;
     }
-  button {
-    color: $button-color;
-    border-color: $button-color;
-    background-color: white;
-    height: 40px;
-    margin-top: 2%;
   }
-  #sign-in {
-    border-right: none;
-  }
-  #cart {
-    margin-right: 1%;
-  }
-}
-
+  #bottom-half {
+     display: flex;
+     flex-direction: row;
+     // bottom: 0;
+     // left: 0;
+     // padding-top: 0;
+     }
+     li {
+       font-size: 8pt;
+       display: inline;
+       margin-left: 20px;
+     }
+//   #header2 {
+//     position: absolute;
+//   }
+//     #header4 {
+//     position: absolute;
+//     color: $button-color;
+//     border-color: $button-color;
+//     background-color: white;
+//     height: 40px;
+//     margin-top: 2%;
+//   }
+//   #sign-in {
+//     border-right: none;
+//   }
+//   #cart {
+//     margin-right: 1%;
+//   }
+// }
 #jumbo {
   display: flex;
   flex-direction: column;
