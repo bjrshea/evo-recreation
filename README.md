@@ -8,10 +8,19 @@
 
 _This project is a mock-up or re-creation of Evo's website using only HTML, CSS, and Sass (no Bootstrap or other CSS libraries used). Below are some screenshots that show the comparison between Evo's site and mine._
 
+_Evo's screenshots:_
 
+![alt text](img/evomockup1.png "1st screenshot of Evo's website.")
+![alt text](img/evomockup2.png "2nd screenshot of Evo's website.")
+![alt text](img/evomockup3.png "3rd screenshot of Evo's website.")
+![alt text](img/evomockup4.png "4th screenshot of Evo's website.")
 
+_My screenshots:_
 
-
+![alt text](img/mymockup1.png "1st screenshot of my website.")
+![alt text](img/mymockup2.png "2nd screenshot of my website.")
+![alt text](img/mymockup3.png "3rd screenshot of my website.")
+![alt text](img/mymockup4.png "4th screenshot of my website.")
 
 ## Known Bugs
 
